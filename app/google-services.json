@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "229295339279",
+    "firebase_url": "https://aespj-286de-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aespj-286de",
+    "storage_bucket": "aespj-286de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229295339279:android:9e6be1818276237dc2f07a",
+        "android_client_info": {
+          "package_name": "com.example.aes_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229295339279-rl42fne5ouaaop1fd02moa2mh7c5d6d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBRGcDsSsZElMkYnY2fhehMZCYNIxrS-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229295339279-rl42fne5ouaaop1fd02moa2mh7c5d6d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

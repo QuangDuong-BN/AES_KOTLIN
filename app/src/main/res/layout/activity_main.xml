@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Advanced Encryption Standard"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/baseline_text_snippet_24"
+        android:drawablePadding="12dp"
+        android:hint="Nhập nội dung muốn mã hóa:"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#9C27B0"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/DodaiKhoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/baseline_settings_applications_24"
+        android:drawablePadding="12dp"
+        android:hint="(128/192/256): "
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#9C27B0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingTop="50dp"
+        android:text=" Kết Quả "
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
+
+    <EditText
+
+        android:id="@+id/key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/baseline_key_24"
+        android:drawablePadding="12dp"
+        android:hint="Key"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#9C27B0"
+        android:textSize="20sp" />
+
+    <EditText
+
+        android:id="@+id/outputData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:drawableStart="@drawable/baseline_send_24"
+        android:drawablePadding="12dp"
+        android:hint="Kết Quả"
+        android:textColor="#9C27B0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/maHoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:onClick="btn_Clicked"
+        android:padding="20dp"
+        android:text="Mã Hóa"
+        android:textSize="30sp" />
+
+</LinearLayout>
